@@ -11,4 +11,4 @@ on:
 
 jobs:
   check_title_of_pr:
-    uses: kmieciak-m/WebAssemblyBrowserApp1/.github/workflows/main.yml@main
+    uses: kmieciak-m/WebAssemblyBrowserApp1/.github/workflows/main.yml@master
