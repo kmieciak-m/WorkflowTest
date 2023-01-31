@@ -1,0 +1,14 @@
+name: PR_Title_Check
+
+on:
+  workflow_call:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
+
+jobs:
+  check_title_of_pr:
+    uses: kmieciak-m/WebAssemblyBrowserApp1/.github/workflows/main.yml@main
