@@ -10,4 +10,4 @@ on:
 
 jobs:
   check_title_of_pr:
-    uses: kmieciak-m/WebAssemblyBrowserApp1/.github/workflows/main.yml@master
+    uses: kmieciak-m/WebAssemblyBrowserApp1/.github/workflows/pr_title_check.yml@master
